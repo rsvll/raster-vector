@@ -107,9 +107,18 @@ h3, p {
   background: #298BA3;
 }
 .container1 p {
-
   color: #C8D8DE;
   padding: 80px;
+}
+.container2{
+
+  width: 90%;
+}
+.container2 p {
+
+  background: #298BA3;
+
+  border: 1px solid black;
 }
 .container img{
   background: #298BA3;
