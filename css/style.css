@@ -3,6 +3,10 @@
   font-family: times;
 
 }
+ div a{
+  text-decoration: none;
+  color: black;
+}
 /* ------------------------NAV START---------------*/
 nav h1{
   color: white;
@@ -95,6 +99,7 @@ h3, p {
   text-align: center;
   padding: 25px;
   color: lightgray;
+  top: 0;
 }
 /*===============END INDEX=======================*/
 .raster-bod{
@@ -104,29 +109,33 @@ h3, p {
 .container1{
   margin: 0px;
   width: 70%;
+}
+.container1 p{
+  margin: 0px;
   background: #298BA3;
 }
 .container1 p {
   color: #C8D8DE;
   padding: 80px;
 }
+.container1 img{
+  background: #298BA3;
+}
 .container2{
-
-  width: 90%;
+ margin: 0px;
 }
 .container2 p {
-
+  padding: 80px;
   background: #298BA3;
+  text-align:  center;
+}
 
-  border: 1px solid black;
-}
-.container img{
-  background: #298BA3;
-}
+
 .raster-footer{
   padding-top: 50px;
   text-align: center;
   padding: 30px;
   color: lightgray;
   background: #00708C;
+  border-color: #00708C;
 }
